@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_example_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example 1" />
+
+    <Button
+        android:id="@+id/btn_example_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example 2" />
+
+    <Button
+        android:id="@+id/btn_example_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example 3" />
+
+    <Button
+        android:id="@+id/btn_example_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example 4" />
+
+    <Button
+        android:id="@+id/btn_example_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example 5" />
+    <Button
+        android:id="@+id/btn_example_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example 6" />
+    <Button
+        android:id="@+id/btn_operators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxJava Operators" />
+    <Button
+        android:id="@+id/btn_buffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BufferOperator" />
+</LinearLayout>
