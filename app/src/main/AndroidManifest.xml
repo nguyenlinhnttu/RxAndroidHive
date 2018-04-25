@@ -24,6 +24,12 @@
         <activity android:name=".Example6Activity" />
         <activity android:name=".OperatorsActivity" />
         <activity android:name=".BufferOperatorActivity" />
+        <activity android:name=".observables.ObserverActivity" />
+        <activity android:name=".observables.SingleObserverActivity" />
+        <activity android:name=".observables.ListOptionActivity" />
+        <activity android:name=".observables.MaybeObserverActivity" />
+        <activity android:name=".observables.CompletableObserverActivity" />
+        <activity android:name=".observables.FlowableObserverActivity" />
     </application>
 
 </manifest>

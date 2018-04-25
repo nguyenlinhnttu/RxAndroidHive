@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.learn.rxjava.observables.ListOptionActivity;
+import com.learn.rxjava.observables.ObserverActivity;
+
 /**
  * Created by nguyenvanlinh on 4/16/18.
  * Project: RxAndroidHive
@@ -28,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnExample6 = findViewById(R.id.btn_example_6);
         Button btnOperator = findViewById(R.id.btn_operators);
         Button btnBuffer = findViewById(R.id.btn_buffer);
+        Button btnObservable = findViewById(R.id.btn_observables);
         btnExample1.setOnClickListener(this);
         btnExample2.setOnClickListener(this);
         btnExample3.setOnClickListener(this);
@@ -36,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnExample6.setOnClickListener(this);
         btnOperator.setOnClickListener(this);
         btnBuffer.setOnClickListener(this);
+        btnObservable.setOnClickListener(this);
     }
 
     @Override
@@ -64,6 +69,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_buffer:
                 startActivity(new Intent(this,BufferOperatorActivity.class));
+                break;
+            case R.id.btn_observables:
+                startActivity(new Intent(this,ListOptionActivity.class));
                 break;
         }
     }
