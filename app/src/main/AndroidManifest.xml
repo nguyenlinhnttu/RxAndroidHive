@@ -30,6 +30,11 @@
         <activity android:name=".observables.MaybeObserverActivity" />
         <activity android:name=".observables.CompletableObserverActivity" />
         <activity android:name=".observables.FlowableObserverActivity" />
+        <activity android:name=".operators.ListOperatorsActivity" />
+        <activity android:name=".operators.MapOperatorActivity" />
+        <activity android:name=".operators.FlatMapActivity" />
+        <activity android:name=".operators.ConcatMapOperatorActivity" />
+        <activity android:name=".operators.SwitchMapOperatorActivity" />
     </application>
 
 </manifest>
