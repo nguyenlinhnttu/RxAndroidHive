@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.learn.rxjava.math.MathOperatorListActivity;
 import com.learn.rxjava.observables.ListOptionActivity;
 import com.learn.rxjava.observables.ObserverActivity;
 import com.learn.rxjava.operators.ListOperatorsActivity;
@@ -44,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnBuffer.setOnClickListener(this);
         btnObservable.setOnClickListener(this);
         btnListOper.setOnClickListener(this);
+        Button btnMath = findViewById(R.id.btn_math);
+        btnMath.setOnClickListener(this);
     }
 
     @Override
@@ -78,6 +81,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_list_operator:
                 startActivity(new Intent(this,ListOperatorsActivity.class));
+                break;
+            case R.id.btn_math:
+                startActivity(new Intent(this,MathOperatorListActivity.class));
                 break;
         }
     }

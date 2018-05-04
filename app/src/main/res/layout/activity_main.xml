@@ -60,4 +60,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="List Operators" />
+    <Button
+        android:id="@+id/btn_math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Math Operators" />
 </LinearLayout>
